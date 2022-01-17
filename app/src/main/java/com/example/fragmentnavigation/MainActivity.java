@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_shop:
                     toolbar.setTitle("Shop");
                     fragment = new StoreFragment();
+
                     break;
                 case R.id.navigation_gifts:
                     toolbar.setTitle("My Gifts");
